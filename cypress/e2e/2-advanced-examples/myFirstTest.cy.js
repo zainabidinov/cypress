@@ -1,4 +1,6 @@
+/* eslint-disable cypress/unsafe-to-chain-command */
 // const navbarText = Cypress.env("navbarText");
+// eslint-disable-next-line no-unused-vars
 const token = "abcd123";
 context("My First Test", () => {
   beforeEach(() => {
